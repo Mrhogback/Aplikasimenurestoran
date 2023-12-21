@@ -1,0 +1,49 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    
+    }
+    .container{
+        width: 20vw; /* 100% of the viewport width */
+        height: 140vh; /* 100% of the viewport height */
+            display: flex;
+            flex-direction: column;
+           
+    }
+    .bg {
+            background-image: url('gambar/bg3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+          
+        }
+        .form-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .edit-harga {
+            margin-left: auto;
+        }
+        
+    .txt {
+        color: white;
+    }
+    h2{
+        padding: 15px;
+        text-align: center;
+    }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
